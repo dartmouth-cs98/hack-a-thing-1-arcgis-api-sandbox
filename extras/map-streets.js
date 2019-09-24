@@ -11,7 +11,7 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/CSVLayer"], function(
     container: "viewDiv",
     map: map,
     center: [-122.4194, 37.7749],
-    zoom: 13
+    zoom: 12
   });
 
   const csvLayer = new CSVLayer({
