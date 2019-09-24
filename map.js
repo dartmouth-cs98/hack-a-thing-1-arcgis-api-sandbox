@@ -4,7 +4,6 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/CSVLayer"], function(
   CSVLayer
 ) {
   const map = new Map({
-    // basemap: "streets-relief-vector"
     basemap: "topo-vector"
   });
 
