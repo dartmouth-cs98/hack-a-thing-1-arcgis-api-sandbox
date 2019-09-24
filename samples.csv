@@ -1,4 +1,3 @@
-time,latitude,longitude,id,place,,,,,,,,,,,,,,,,,
-2019-09-24T04:09:47.384Z,37.833121,-122.2754129,us60005mjw,"63km NNW of San Antonio, Puerto Rico",,,,,,,,,,,,,,,,,
-2019-09-25T04:09:47.384Z,37.823121,-122.2554129,us60005mj2,"63km SSW of San Antonio, Puerto Rico",,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,
+time,latitude,longitude,id,place
+2019-09-24T04:09:47.384Z,37.833121,-122.2754129,us60005mjw,"63km NNW of San Antonio, Puerto Rico"
+2019-09-25T04:09:47.384Z,37.823121,-122.2554129,us60005mj2,"63km SSW of San Antonio, Puerto Rico"

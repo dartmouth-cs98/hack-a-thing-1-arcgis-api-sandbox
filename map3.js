@@ -115,7 +115,8 @@ require([
   //   renderer: simpleRenderer
   // });
   var csvLayer = new CSVLayer({
-    url: "./samples.csv",
+    url:
+      "https://raw.githubusercontent.com/dartmouth-cs98/hack-a-thing-1-arcgis-api-sandbox/master/samples.csv",
     copyright: "USGS Earthquakes"
   });
   map.add(csvLayer); // adds the layer to the map
