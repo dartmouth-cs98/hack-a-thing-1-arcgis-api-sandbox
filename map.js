@@ -17,7 +17,7 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/CSVLayer"], function(
 
   const csvLayer = new CSVLayer({
     url:
-      "https://hack-a-thing-1-arcgis-api-sandbox.s3.us-east-2.amazonaws.com/locations.csv",
+      "https://hack-a-thing-1-arcgis-api-sandbox.s3.us-east-2.amazonaws.com/locations.csv"
   });
   csvLayer.renderer = {
     type: "heatmap",
@@ -26,15 +26,8 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/CSVLayer"], function(
     longitudeField: "longitude",
     colorStops: [
       { ratio: 0, color: "rgba(255, 255, 255, 0)" },
-      {
-        ratio: 0.0001,
-        color: "rgba(255,255,220, .3)",
-        outline: {
-          color: [0, 0, 0, 0.5],
-          width: 1.25
-        }
-      },
-      { ratio: 0.2, color: "rgba(255, 200, 0, .3)" },
+      { ratio: 0.0001, color: "rgba(255,255,230, .3)" },
+      { ratio: 0.1, color: "rgba(255, 200, 0, .3)" },
       { ratio: 0.5, color: "rgba(255, 140, 0, .6)" },
       { ratio: 0.8, color: "rgba(255, 140, 0, .6)" },
       { ratio: 1, color: "rgba(255, 0, 0, .6)" }
